@@ -6,3 +6,10 @@ using Playground
     @test add_one(0) == 1
     @test add_one(-1) == 0
 end
+
+
+@testset "triple" begin
+    @test triple(1) == 3
+    @test triple(0) == 0
+    @test triple(-1) == -3
+end
